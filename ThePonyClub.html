@@ -20,17 +20,50 @@
             
             <body>
             
+            <form>
             <p>
-               A pony is a small horse (Equus ferus caballus). Depending on context, a pony may be a horse that is under an approximate or exact height at the withers or a small horse with a specific conformation and temperament. There are many different breeds. Compared to other horses, ponies often exhibit thicker manes, tails and overall coat, as well as proportionally shorter legs, wider barrels, heavier bone, thicker necks, and shorter heads with broader foreheads. The word pony derives from the old French poulenet, meaning foal, a young, immature horse, but this is not the modern meaning; unlike a horse foal, a pony remains small when fully grown. However, on occasion, people who are unfamiliar with horses may confuse an adult pony with a foal.
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple="true">
+                    <option value="ponyl">pony</option>
+                    <option value="horse">horse</option>
+                    <option value="friend">Friend</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google Search</option>
+                </select>
+            </p>
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
 
-The ancestors of most modern ponies developed small stature because they lived on the margins of livable horse habitat. These smaller animals were domesticated and bred for various purposes all over the Northern Hemisphere. Ponies were historically used for driving and freight transport, as children's mounts, for recreational riding, and later as competitors and performers in their own right. During the Industrial Revolution, particularly in Great Britain, a significant number were used as pit ponies, hauling loads of coal in the mines.
+            <div class="radio-buttons">
+                <label for="join-newsletter">Would you like to hear about upcoming pony events</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>nay
+                <input type="radio" name="join-newsletter" value="No">Yay
+            </div>
+            <br>
 
-Ponies are generally considered intelligent and friendly, although sometimes they also are described as stubborn or cunning. Properly trained ponies are appropriate mounts for children who are learning to ride. Larger ponies can be ridden by adults, as ponies are usually strong for their size. In modern use, many organizations define a pony as a mature horse that measures less than 14.2 hands (58 inches, 147 cm) at the withers, but there are a number of exceptions. Different organizations that use a strict measurement model vary from 14 hands (56 inches, 142 cm) to nearly 14.3 hands (59 inches, 150 cm). Many breeds classify an animal as either horse or pony based on pedigree and phenotype, no matter its height. Some full-sized horses may be called ponies for various reasons of tradition or as a term of endearment.<p>
-                
-                
-                
-                
-               
+
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="clear">
+            </p>
+
+
+        </form>
             
             
             
