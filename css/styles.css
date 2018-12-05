@@ -1,8 +1,11 @@
 body {
     background-color: pink;
+    
 }
 header {
     display: flex;
+    
+
 }
 
 header nav {
@@ -18,6 +21,16 @@ header nav ul {
     list-style-type: none;
 
 }
+
+
+@media screen and (max-width: 40rem) {
+    header, 
+    main, 
+    footer,
+    form p {
+        flex-direction: column;
+
+ font-family: fantasy
 
 
 
